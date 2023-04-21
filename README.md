@@ -1,5 +1,5 @@
 # shinyHunting
-This is Python code I have created that will hunt for various shiny pokemon automatically using emulators . Various different methods are used, but mainly image tracking in Python.
+This is Python code I have created that will hunt for various shiny pokemon automatically using emulators . Various different methods are used, but mainly image tracking in Python. It is specifically meant for hunting in Generation 3, but could very easily be updated to work for any generation.
 
 In order to run this code, you will have to install some libraries use pip. There are a couple specific ones I can recall but you may need to do some testing on your own. I ran all of this code in Linux, so it may require some different libraries in Windows. I gave all of my compiler errors to ChatGPT and it told me what libraries to install. It has been a while so I don't remember all of them, so you will have to trial and error it yourself until it works. I recommend trying the findShinyTreeko.py before the shinyWildEncounter.py as it is simpler to test.
 
