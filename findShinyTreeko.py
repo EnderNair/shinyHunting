@@ -22,7 +22,7 @@ found_image = True
 # Start a while loop that will continue until the image is found
 while found_image:
     # Search the screen for the image (normal Treeko)
-    location = pyautogui.locateOnScreen(image)
+    location = pyautogui.locateOnScreen(image, confidence=0.9)
     
     # If Normal Treeko is not found, variable found_image will be set to False and break from the loop
     if location is None:
